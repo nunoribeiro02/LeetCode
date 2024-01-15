@@ -10,19 +10,16 @@ class Solution(object):
         vowels = ('a', 'e', 'i', 'o', 'u')
         
         while (i < j):
-            if ((s[i].lower() in vowels) and (s[j].lower() in vowels)):
-                temp = s[i]
-                s[i] = s[j]
-                s[j] = temp
+            s_i = s[i].lower()
+            s_j = s[j].lower()
+            if ((s_i in vowels) and (s_j in vowels)):
+                s[i], s[j] = s[j], s[i]
                 i = i + 1
                 j = j - 1
 
-            if (s[i].lower() not in vowels):
+            if (s_i not in vowels):
                 i = i + 1
-            elif (s[j].lower() not in vowels):
+            elif (s_j not in vowels):
                 j = j - 1
 
         return ''.join(s)
-
-        
-            
