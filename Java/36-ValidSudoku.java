@@ -44,3 +44,8 @@ class Solution {
         return true;
     }
 }
+
+/*
+ Space: O(3n) = O(n), n is the size of the array
+ Time: O(n), n is the size of the array
+ */
