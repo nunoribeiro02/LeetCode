@@ -9,3 +9,5 @@ My solutions to LeetCode problems, in various languages.
 
 [Java](https://github.com/nunoribeiro02/LeetCode/tree/main/Java)
 
+[C](https://github.com/nunoribeiro02/LeetCode/tree/main/C)
+
